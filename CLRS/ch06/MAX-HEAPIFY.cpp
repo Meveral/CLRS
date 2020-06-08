@@ -56,6 +56,7 @@ void MaxHeapify(int(*A)[14], int i,int n)
 int main()
 {
 	vector < string > equations = { "a==b","b==c","d!=e" };
+
 	Solution so;
 	bool i = so.equationsPossible(equations);
 	return 0;
