@@ -1,0 +1,26 @@
+6.2-2
+MIN-HEAPIFY(A,i):
+	l=LEFT(i);
+	r=RIGHT(i);
+	least = i;
+	if(l<=A.heap-size&&A[l]<least) least = l;
+	if(r<=A.heap-size&&A[r]<least) least = r;
+	if(i!=least)
+	{
+	MIN-HEAPIFY(A,least);
+	Exchange(A[i],A[least]); 
+	}
+
+6.2-5
+MAX-HEAPIFY(A,i):
+	while(true)
+	{
+		l=LEFT(i);
+		r=RIGHT(i);
+		largest = i;
+		if(l<=A.heap-size&&A[l]>largest) largest = l;
+		if(r<=A.heap-size&&A[r]>largest) largest = r;
+		if(largest == i) return;
+		Exchange(A[i],A[largest]);
+		i = largest;
+	}
