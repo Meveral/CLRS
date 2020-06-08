@@ -348,8 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-/CLRS/CLRS.sln
-/CLRS/CLRS/CLRS.vcxproj.filters
 /CLRS/CLRS/CLRS.vcxproj
-/CLRS/ch06/test.h
+/CLRS/CLRS/CLRS.vcxproj.filters
 /CLRS/CLRS/源.cpp
